@@ -12,7 +12,7 @@ Exemplos de automação operacional em **Linux** e **Docker**, focados em estabi
 - `cron/` – exemplos de agendamento
 - `logrotate/` – políticas de rotação de logs
 - `docker/` – compose com limites e healthcheck
-- `install.sh` – instalação system-wide (opcional)
+- `install.sh` – instalação system-wide
 
 ## Como usar
 
