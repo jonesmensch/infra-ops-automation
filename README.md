@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-# infra-ops-automation
 =======
 # Infra Ops Automation
 
