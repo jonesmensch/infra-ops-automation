@@ -1,0 +1,16 @@
+services:
+  web:
+    image: nginx:stable
+    container_name: web_nginx
+    ports:
+      - "8080:80"
+    deploy:
+      resources:
+        limits:
+          memory: 256M
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD-SHELL", "curl -fsS http://localhost/ || exit 1"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
